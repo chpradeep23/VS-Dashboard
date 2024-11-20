@@ -5,7 +5,7 @@ anchors:
       level: 0
     - color: "#4BDD33" # green
       level: 1
-cellIdPreamble: &quot;
+cellIdPreamble: "&quot;"
 cells:
   10.0.1.164:Ethernet7:
     dataRef: oper-state:10.0.1.164:Ethernet7
