@@ -18,7 +18,7 @@ anchors:
       level: 10000000000
   label-config: &label-config
     separator: replace
-    units: bps
+    units: Mbps
     decimalPoints: 1
     valueMappings:
       - valueMax: 100000000000
