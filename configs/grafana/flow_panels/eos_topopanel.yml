@@ -9,21 +9,21 @@ anchors:
     - color: "#bec8d2" # grey
       level: 0
     - color: "#4BDD33" # green
-      level: [1000000000/1000000]
+      level: 1000000000
     - color: "#000000" # black
-      level: [100000000/1000000]
+      level: 100000000
     - color: "#FF8000" # orange
-      level: [5000000000/1000000]
+      level: 5000000000
     - color: "#FF3154" # red
-      level: [10000000000/1000000]
+      level: 10000000000
   label-config: &label-config
     separator: replace
     units: bps
     decimalPoints: 8
     valueMappings:
-      - valueMax: [10000000000/1000000]
+      - valueMax: 10000000000
         text: ​
-      - valueMin: [100000000/1000000]
+      - valueMin: 100000000
 cellIdPreamble: cell-
 cells:
   10.0.1.172:Ethernet24:
