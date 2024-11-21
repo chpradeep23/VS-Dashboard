@@ -30,7 +30,7 @@ cells:
     dataRef: oper-state:10.0.1.172:Ethernet24
     fillColor:
       thresholds: *thresholds-operstate
-  link_id:10.0.1.172:Ethernet24:10.0.1.173:Ethernet24:
+  link_id:10.0.1.172:Ethernet24:
     dataRef: 10.0.1.172:Ethernet24:out
     label: *label-config
     strokeColor:
@@ -39,7 +39,7 @@ cells:
     dataRef: oper-state:10.0.1.173:Ethernet24
     fillColor:
       thresholds: *thresholds-operstate
-  link_id:10.0.1.173:Ethernet24:10.0.1.172:Ethernet24:
+  link_id:10.0.1.173:Ethernet24:
     dataRef: 10.0.1.173:Ethernet24:out
     label: *label-config
     strokeColor:
@@ -49,7 +49,7 @@ cells:
     dataRef: oper-state:10.0.1.173:Ethernet4
     fillColor:
       thresholds: *thresholds-operstate
-  link_id:10.0.1.173:Ethernet4:10.0.1.166:Ethernet6:
+  link_id:10.0.1.173:Ethernet4:
     dataRef: 10.0.1.173:Ethernet4:out
     label: *label-config
     strokeColor:
@@ -58,7 +58,7 @@ cells:
     dataRef: oper-state:10.0.1.166:Ethernet6
     fillColor:
       thresholds: *thresholds-operstate
-  link_id:10.0.1.166:Ethernet6:10.0.1.173:Ethernet4:
+  link_id:10.0.1.166:Ethernet6:
     dataRef: 10.0.1.166:Ethernet6:out
     label: *label-config
     strokeColor:
@@ -68,7 +68,7 @@ cells:
     dataRef: oper-state:10.0.1.166:Ethernet56/1
     fillColor:
       thresholds: *thresholds-operstate
-  link_id:10.0.1.166:Ethernet56/1:10.0.1.167:Ethernet56/1:
+  link_id:10.0.1.166:Ethernet56/1:
     dataRef: 10.0.1.166:Ethernet56/1:out
     label: *label-config
     strokeColor:
@@ -77,7 +77,7 @@ cells:
     dataRef: oper-state:10.0.1.167:Ethernet56/1
     fillColor:
       thresholds: *thresholds-operstate
-  link_id:10.0.1.167:Ethernet56/1:10.0.1.166:Ethernet56/1:
+  link_id:10.0.1.167:Ethernet56/1:
     dataRef: 10.0.1.167:Ethernet56/1:out
     label: *label-config
     strokeColor:
@@ -87,7 +87,7 @@ cells:
     dataRef: oper-state:10.0.1.167:Ethernet49/1
     fillColor:
       thresholds: *thresholds-operstate
-  link_id:10.0.1.167:Ethernet49/1:10.0.1.164:Ethernet50/1:
+  link_id:10.0.1.167:Ethernet49/1:
     dataRef: 10.0.1.167:Ethernet49/1:out
     label: *label-config
     strokeColor:
@@ -96,7 +96,7 @@ cells:
     dataRef: oper-state:10.0.1.164:Ethernet50/1
     fillColor:
       thresholds: *thresholds-operstate
-  link_id:10.0.1.164:Ethernet50/1:10.0.1.167:Ethernet49/1:
+  link_id:10.0.1.164:Ethernet50/1:
     dataRef: 10.0.1.164:Ethernet50/1:out
     label: *label-config
     strokeColor:
@@ -106,7 +106,7 @@ cells:
     dataRef: oper-state:10.0.1.164:Ethernet56/1
     fillColor:
       thresholds: *thresholds-operstate
-  link_id:10.0.1.164:Ethernet56/1:10.0.1.165:Ethernet56/1:
+  link_id:10.0.1.164:Ethernet56/1:
     dataRef: 10.0.1.164:Ethernet56/1:out
     label: *label-config
     strokeColor:
@@ -115,7 +115,7 @@ cells:
     dataRef: oper-state:10.0.1.165:Ethernet56/1
     fillColor:
       thresholds: *thresholds-operstate
-  link_id:10.0.1.165:Ethernet56/1:10.0.1.164:Ethernet56/1:
+  link_id:10.0.1.165:Ethernet56/1:
     dataRef: 10.0.1.165:Ethernet56/1:out
     label: *label-config
     strokeColor:
@@ -125,7 +125,7 @@ cells:
     dataRef: oper-state:10.0.1.165:Ethernet2
     fillColor:
       thresholds: *thresholds-operstate
-  link_id:10.0.1.165:Ethernet2:10.0.1.172:Ethernet1:
+  link_id:10.0.1.165:Ethernet2:
     dataRef: 10.0.1.165:Ethernet2:out
     label: *label-config
     strokeColor:
@@ -134,7 +134,7 @@ cells:
     dataRef: oper-state:10.0.1.172:Ethernet1
     fillColor:
       thresholds: *thresholds-operstate
-  link_id:10.0.1.172:Ethernet1:10.0.1.165:Ethernet2:
+  link_id:10.0.1.172:Ethernet1:
     dataRef: 10.0.1.172:Ethernet1:out
     label: *label-config
     strokeColor:
@@ -144,7 +144,7 @@ cells:
     dataRef: oper-state:10.0.1.165:Ethernet1
     fillColor:
       thresholds: *thresholds-operstate
-  link_id:10.0.1.165:Ethernet1:10.0.1.169:Ethernet43:
+  link_id:10.0.1.165:Ethernet1:
     dataRef: 10.0.1.165:Ethernet1:out
     label: *label-config
     strokeColor:
@@ -153,7 +153,7 @@ cells:
     dataRef: oper-state:10.0.1.169:Ethernet43
     fillColor:
       thresholds: *thresholds-operstate
-  link_id:10.0.1.169:Ethernet43:10.0.1.165:Ethernet1:
+  link_id:10.0.1.169:Ethernet43:
     dataRef: 10.0.1.169:Ethernet43:out
     label: *label-config
     strokeColor:
@@ -163,7 +163,7 @@ cells:
     dataRef: oper-state:10.0.1.169:Ethernet44
     fillColor:
       thresholds: *thresholds-operstate
-  link_id:10.0.1.169:Ethernet44:10.0.1.168:Ethernet44:
+  link_id:10.0.1.169:Ethernet44:
     dataRef: 10.0.1.169:Ethernet44:out
     label: *label-config
     strokeColor:
@@ -172,7 +172,7 @@ cells:
     dataRef: oper-state:10.0.1.168:Ethernet44
     fillColor:
       thresholds: *thresholds-operstate
-  link_id:10.0.1.168:Ethernet44:10.0.1.169:Ethernet44:
+  link_id:10.0.1.168:Ethernet44:
     dataRef: 10.0.1.168:Ethernet44:out
     label: *label-config
     strokeColor:
@@ -182,7 +182,7 @@ cells:
     dataRef: oper-state:10.0.1.168:Ethernet43
     fillColor:
       thresholds: *thresholds-operstate
-  link_id:10.0.1.168:Ethernet43:10.0.1.166:Ethernet1:
+  link_id:10.0.1.168:Ethernet43:
     dataRef: 10.0.1.168:Ethernet43:out
     label: *label-config
     strokeColor:
@@ -191,7 +191,7 @@ cells:
     dataRef: oper-state:10.0.1.166:Ethernet1
     fillColor:
       thresholds: *thresholds-operstate
-  link_id:10.0.1.166:Ethernet1:10.0.1.168:Ethernet43:
+  link_id:10.0.1.166:Ethernet1:
     dataRef: 10.0.1.166:Ethernet1:out
     label: *label-config
     strokeColor:
@@ -201,7 +201,7 @@ cells:
     dataRef: oper-state:10.0.1.165:Ethernet7
     fillColor:
       thresholds: *thresholds-operstate
-  link_id:10.0.1.165:Ethernet7:10.203.8.114:Ethernet51:
+  link_id:10.0.1.165:Ethernet7:
     dataRef: 10.0.1.165:Ethernet7:out
     label: *label-config
     strokeColor:
@@ -210,7 +210,7 @@ cells:
     dataRef: oper-state:10.203.8.114:Ethernet51
     fillColor:
       thresholds: *thresholds-operstate
-  link_id:10.203.8.114:Ethernet51:10.0.1.165:Ethernet7:
+  link_id:10.203.8.114:Ethernet51:
     dataRef: 10.203.8.114:Ethernet51:out
     label: *label-config
     strokeColor:
@@ -220,7 +220,7 @@ cells:
     dataRef: oper-state:10.0.1.164:Ethernet7
     fillColor:
       thresholds: *thresholds-operstate
-  link_id:10.0.1.164:Ethernet7:10.203.8.114:Ethernet49:
+  link_id:10.0.1.164:Ethernet7:
     dataRef: 10.0.1.164:Ethernet7:out
     label: *label-config
     strokeColor:
@@ -229,7 +229,7 @@ cells:
     dataRef: oper-state:10.203.8.114:Ethernet49
     fillColor:
       thresholds: *thresholds-operstate
-  link_id:10.203.8.114:Ethernet49:10.0.1.164:Ethernet7:
+  link_id:10.203.8.114:Ethernet49:
     dataRef: 10.203.8.114:Ethernet49:out
     label: *label-config
     strokeColor:
@@ -239,12 +239,12 @@ cells:
     dataRef: oper-state:10.203.8.114:Ethernet50
     fillColor:
       thresholds: *thresholds-operstate
-  link_id:10.203.8.114:Ethernet51:MPLS:
+  link_id:10.203.8.114:Ethernet51:out:
     dataRef: 10.203.8.114:Ethernet50:out
     label: *label-config
     strokeColor:
       thresholds: *thresholds-traffic
-  link_id:MPLS:10.203.8.114:Ethernet51:
+  link_id:10.203.8.114:Ethernet51:in:
     dataRef: 10.203.8.114:Ethernet50:in
     label: *label-config
     strokeColor:
