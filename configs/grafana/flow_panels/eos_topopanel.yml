@@ -19,11 +19,11 @@ anchors:
   label-config: &label-config
     separator: replace
     units: bps
-    decimalPoints: 9
+    decimalPoints: 1
     valueMappings:
-      - valueMax: 10000000000
+      - valueMax: 1000000000
         text: ​
-      - valueMin: 100000000
+      - valueMin: 1000000001
 cellIdPreamble: cell-
 cells:
   10.0.1.172:Ethernet24:
