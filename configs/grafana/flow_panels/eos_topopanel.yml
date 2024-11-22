@@ -21,9 +21,9 @@ anchors:
     units: bps
     decimalPoints: 1
     valueMappings:
-      - valueMax: 10000000000
+      - valueMax: 199999
         text: ​
-      - valueMin: 1000000000
+      - valueMin: 200000
 cellIdPreamble: cell-
 cells:
   10.0.1.172:Ethernet24:
