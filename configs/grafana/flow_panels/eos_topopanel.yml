@@ -19,7 +19,7 @@ anchors:
   label-config: &label-config
     separator: replace
     units: bps
-    decimalPoints: 8
+    decimalPoints: 9
     valueMappings:
       - valueMax: 10000000000
         text: ​
