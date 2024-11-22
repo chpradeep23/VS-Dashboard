@@ -239,12 +239,12 @@ cells:
     dataRef: oper-state:10.203.8.114:Ethernet50
     fillColor:
       thresholds: *thresholds-operstate
-  link_id:10.203.8.114:Ethernet51:out:
+  link_id:10.203.8.114:Ethernet50:out:
     dataRef: 10.203.8.114:Ethernet50:out
     label: *label-config
     strokeColor:
       thresholds: *thresholds-traffic
-  link_id:10.203.8.114:Ethernet51:in:
+  link_id:10.203.8.114:Ethernet50:in:
     dataRef: 10.203.8.114:Ethernet50:in
     label: *label-config
     strokeColor:
