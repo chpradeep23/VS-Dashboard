@@ -8,10 +8,10 @@ anchors:
   thresholds-traffic: &thresholds-traffic
     - color: "#bec8d2" # grey
       level: 0
-    - color: "#4BDD33" # green
+    - color: "#7FFFD4" # green
       level: 1000000000
     - color: "#000000" # black
-      level: 10000000
+      level: 100000000
     - color: "#FF8000" # orange
       level: 5000000000
     - color: "#FF3154" # red
@@ -21,9 +21,9 @@ anchors:
     units: bps
     decimalPoints: 1
     valueMappings:
-      - valueMax: 199999
+      - valueMax: 19999
         text: ​
-      - valueMin: 200000
+      - valueMin: 20000
 cellIdPreamble: cell-
 cells:
   10.0.1.172:Ethernet24:
