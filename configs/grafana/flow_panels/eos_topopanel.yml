@@ -11,7 +11,7 @@ anchors:
     - color: "#4BDD33" # green
       level: 1000000000
     - color: "#000000" # black
-      level: 100000000
+      level: 10000000
     - color: "#FF8000" # orange
       level: 5000000000
     - color: "#FF3154" # red
