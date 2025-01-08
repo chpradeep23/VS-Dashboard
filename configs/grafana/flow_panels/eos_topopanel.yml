@@ -8,9 +8,9 @@ anchors:
   thresholds-traffic: &thresholds-traffic
     - color: "#bec8d2" # grey
       level: 0
-    - color: "#7FFFD4" # green
+    - color: "#E5383B" # green
       level: 1000000000
-    - color: "#CCFF33" # black
+    - color: "#CCFF33" # Green
       level: 100000000
     - color: "#FF8000" # orange
       level: 5000000000
