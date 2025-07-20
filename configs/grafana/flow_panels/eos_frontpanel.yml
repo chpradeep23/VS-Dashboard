@@ -67,3 +67,15 @@ cells:
     dataRef: oper-state:10.0.1.172:Ethernet1
     fillColor:
       thresholds: *thresholds-operstate
+  10.0.1.172:Ethernet24:
+    dataRef: oper-state:10.0.1.172:Ethernet24
+    fillColor:
+      thresholds: *thresholds-operstate
+  10.0.1.173:Ethernet4:
+    dataRef: oper-state:10.0.1.173:Ethernet4
+    fillColor:
+      thresholds: *thresholds-operstate
+  10.0.1.173:Ethernet24:
+    dataRef: oper-state:10.0.1.173:Ethernet24
+    fillColor:
+      thresholds: *thresholds-operstate
